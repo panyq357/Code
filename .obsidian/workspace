@@ -1,0 +1,109 @@
+{
+  "main": {
+    "id": "f2359dfc0dec3778",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cc15290e626e3e2",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f30d5f95a713a71a",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbc233305772c81b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ff091928833656a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5d650bbb59c24c3a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0e2f1ed08a014d45",
+    "type": "split",
+    "children": [
+      {
+        "id": "9df4e4614985191e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13eb0aadf27c971a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "47921c6e156505a7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4cc15290e626e3e2",
+  "lastOpenFiles": [
+    "VEP.md",
+    "Git.md",
+    "Command Line/Bioinformatics/tabix & bgzip.md",
+    "conda.md",
+    "Command Line/Bioinformatics/SnpEff.md",
+    "Command Line/Bioinformatics/vcftools.md",
+    "Command Line/Bioinformatics/GATK.md",
+    "R/edgeR.md",
+    "R/Bioconductor/Rsubread.md",
+    "Command Line/Bioinformatics/subread.md"
+  ]
+}

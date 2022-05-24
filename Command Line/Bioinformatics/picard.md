@@ -1,0 +1,1 @@
+`-I /dev/stdin` 和 `-O /dev/stdout` 可使 picard 从 stdin 接受输入，以及输出至 stdout。

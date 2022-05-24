@@ -1,0 +1,1 @@
+参考：<https://www.pipinghotdata.com/posts/2020-09-22-exporting-editable-ggplot-graphics-to-powerpoint-with-officer-and-purrr/#how>

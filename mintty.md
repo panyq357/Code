@@ -1,0 +1,1 @@
+mintty（也就是 Git Bash），是一个看上去很简陋，实际功能很强大的终端模拟器，它支持真彩色（能通过 [24-bit-color.sh](https://github.com/tmux/tmux/blob/master/tools/24-bit-color.sh)  测试），也支持 OSC 52（参考 [manual](https://mintty.github.io/mintty.1.html))，甚至还支持透明背景。
