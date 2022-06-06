@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4cc15290e626e3e2",
+        "id": "1b78119bd7b0cb85",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Git & Github.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mapthin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git & Github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,29 +86,30 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "4cc15290e626e3e2",
+  "active": "1b78119bd7b0cb85",
   "lastOpenFiles": [
+    "Git & Github.md",
     "VEP.md",
-    "Git.md",
-    "Command Line/Bioinformatics/tabix & bgzip.md",
-    "conda.md",
-    "Command Line/Bioinformatics/SnpEff.md",
-    "Command Line/Bioinformatics/vcftools.md",
-    "Command Line/Bioinformatics/GATK.md",
-    "R/edgeR.md",
-    "R/Bioconductor/Rsubread.md",
-    "Command Line/Bioinformatics/subread.md"
+    "R/tidyverse/purrr.md",
+    "R/base/函数式编程.md",
+    "R/Biology/clusterProfiler.md",
+    "R/Biology/biomaRt.md",
+    "R/Graphic/VennDiagram.md",
+    "IGDB-HPCC.md",
+    "Command Line/Bioinformatics/MapThin.md",
+    "Command Line/Bioinformatics/Untitled.md"
   ]
 }

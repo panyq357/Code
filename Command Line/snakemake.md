@@ -2,7 +2,7 @@
 
 
 
-## One input, multiple output with multiple params.
+### One input, multiple output with multiple params.
 
 ```snakemake
 CELL_TYPE = ["rice", "yeast", "human"]

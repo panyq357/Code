@@ -1,7 +1,7 @@
 ---
 tags:
     - Bioinformatics
-    - Sequence Alignment
+    - SequenceAlignment
 ---
 
 `bwa` 是一个用于将测序得到的 `.fastq` 文件比对到参考基因组上，获得比对结果 `.sam` 的软件。

@@ -37,3 +37,5 @@ LDBlockShow/bin/LDBlockShow \
     -OutPng \
     -NoShowLDist 999999999
 ```
+
+若要在 LD 热图上画曼哈顿图，可使用 `-InGWAS` 参数，提供一个 TSV 文件，内有三列数据：染色体，物理位置，p 值。

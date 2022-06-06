@@ -2,8 +2,8 @@
   "obsidian-footnotes:insert-footnote": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Ctrl",
+        "Mod"
       ],
       "key": "6"
     }

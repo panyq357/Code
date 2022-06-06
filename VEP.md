@@ -49,13 +49,17 @@ vep --vcf \
 - `--gff`：注释 GFF
 - `--fasta`：参考基因组 FASTA
 - `--compress_output`：压缩格式，可选 `bgzip` 和 `gzip`
-- `--fields`：注释的具体内容，详见文档说明[^4]。
+- `--fields`：注释的具体内容
 
-在程序运行结束后，新生成的 VCF 的 INFO 列中将新增一个名为 CSQ 的键值对，这就是 VEP 加的注释了。[^5]
+`--fileds` 参数的可选字段如下[^4]。
+```txt
+Allele|Consequence|IMPACT|SYMBOL|Gene|Feature_type|Feature|BIOTYPE|EXON|INTRON|HGVSc|HGVSp|cDNA_position|CDS_position|Protein_position|Amino_acids|Codons|Existing_variation|DISTANCE|STRAND|FLAGS|SYMBOL_SOURCE|HGNC_ID
+```
+
+在程序运行结束后，新生成的 VCF 的 INFO 列中将新增一个名为 CSQ 的键值对，这就是 VEP 加的注释了。
 
 
 [^1]: [Ensembl Variant Effect Predictor (VEP)](https://asia.ensembl.org/info/docs/tools/vep/index.html)
 [^2]: [Package Recipe 'ensembl-vep'](https://bioconda.github.io/recipes/ensembl-vep/README.html)
 [^3]: [Variant Effect Predictor - Running VEP](https://asia.ensembl.org/info/docs/tools/vep/script/vep_options.html)
-[^4]: [output columns](https://asia.ensembl.org/info/docs/tools/vep/vep_formats.html#output)
-[^5]: [VCF output](https://asia.ensembl.org/info/docs/tools/vep/vep_formats.html#vcfout)
+[^4]: [VCF output](https://asia.ensembl.org/info/docs/tools/vep/vep_formats.html#vcfout)

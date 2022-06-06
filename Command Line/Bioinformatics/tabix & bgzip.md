@@ -1,11 +1,15 @@
 [tabix](http://www.htslib.org/doc/tabix.html) 是一个用于对常见的 SAM/BAM、VCF 等文件建索引的软件，以加快读取特定染色体位置数据的速度。
 
+tabix 的参数：
 - `-p`：指定文件类型，可以是 gff、bed、sam、vcf
     - 如要对 GTF 进行处理，选 gff 就行（两种格式的位置信息的位置一样）
 - `-H`：只输出表头
 - `-h`：输出表头以及内容
 
 在用 tabix 建索引之前，需要用其配套的 [bgzip](http://www.htslib.org/doc/bgzip.html) 对文件进行压缩。
+
+bgzip 的参数：
+- `-i`：在压缩时创建一个 `.gzi` 的索引，但这个索引和 tabix 的 `.tbi` 索引不一样。
 
 ## 栗子
 首先，使用 bgzip 对 VCF 文件进行压缩（默认会删除原文件），然后用 tabix 对压缩后的文件建索引。

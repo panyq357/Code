@@ -1,3 +1,13 @@
+---
+title: biomaRt
+tags:
+    - Ensembl
+    - Bioconductor
+    - API
+---
+
+biomaRt 包
+
 ## 连接数据集
 
 用 biomaRt 连接 Ensembl 中数据集的基本操作如下。
